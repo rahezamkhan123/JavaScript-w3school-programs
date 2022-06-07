@@ -1,0 +1,28 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>JavaScript Arrays</h1>
+    <h2>The fill() Method</h2>
+
+    <p>fill() fills specified elements in an array with a value.</p>
+    <p>Fill all array elements with "Kiwi":</p>
+
+    <p id="demo"></p>
+
+    <script>
+        const fruits = ["Banana", "Orange", "Apple", "Mango"];
+
+        document.getElementById("demo").innerHTML = fruits.fill("Kiwi");
+
+    </script>
+    <p>The fill() method is not supported in Internet Explorer 11 (or earlier).</p>
+</body>
+
+</html>
